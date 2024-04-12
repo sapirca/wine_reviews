@@ -61,12 +61,23 @@ Convert the colab to python?
 
 ### Installation
 
+#    cd Predictive-Wine-Quality
 1. **Create the conda environment:**
    ```bash
    git clone https://github.com/sapirca/wine_reviews.git
-   cd Predictive-Wine-Quality
    conda create --name wine-quality-project python
    conda activate wine-quality-project
    pip install -r requirements.txt
+   
+   jupyter notebook --port=7770
+   Navigating to the Notebook:
+    Open your web browser.
+    Paste http://localhost:7770/tree in the address bar and press Enter.
+    This will open the Jupyter Notebook dashboard.
+    Navigate through the file structure in the dashboard to find the folder: /path/to/git/repo/wine_reviews/
+    Click on the Understanding_wine_trends_across_different_attributes.ipynb file to open your notebook.
+   
+
+
 
 

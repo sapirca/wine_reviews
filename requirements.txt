@@ -4,3 +4,4 @@ seaborn
 xgboost
 scikit-learn
 kaggle
+notebook
