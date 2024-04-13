@@ -6,3 +6,4 @@ scikit-learn
 kaggle
 notebook
 shap
+joblib
