@@ -7,6 +7,5 @@ kaggle
 notebook
 shap
 joblib
-pandas-profiling
 TextBlob
 catboost
