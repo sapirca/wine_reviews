@@ -7,3 +7,4 @@ kaggle
 notebook
 shap
 joblib
+pandas-profiling
