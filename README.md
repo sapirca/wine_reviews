@@ -43,23 +43,34 @@ Please download the following:
 	git clone https://github.com/sapirca/wine_reviews.git
 	
 1. *To create the conda environment execute the following commands:*
-	conda create --name wine-quality-project python
-		If the conda asks for more installations, please press 'y' to proceed
-	conda activate wine-quality-project
-	cd wine_reviews
-	pip install -r requirements.txt
 
-2. *To start the notebook process:*
-	jupyter notebook --port=7770
+```bash
+conda create --name wine-quality-project python
+conda activate wine-quality-project
+cd wine_reviews
+pip install -r requirements.txt
+```
+
+2. 
+3. *To start the notebook process:*
+
+
+```bash
+jupyter notebook --port=7770
+```
+    
+	
    
 2.  *To run the notebook:*
-	Open your web browser.
-	Paste http://localhost:7770/tree in the address bar and press Enter.
-    This will open the Jupyter Notebook dashboard.
-    Navigate through the file structure in the dashboard to find the folder: /path/to/git/repo/wine_reviews/
-    Click on the Understanding_wine_trends_across_different_attributes.ipynb file to open your notebook.
+
+	Open your web browser and paste the foollowing in the address bar:
+```bash
+http://localhost:7770/tree
+```
+
+This will open the Jupyter Notebook dashboard.
+Navigate through the file structure in the dashboard to find the file to open your notebook:
+
+predictive_wine_quality.ipynb
    
-
-
-
 
