@@ -3,9 +3,9 @@ matplotlib
 seaborn
 xgboost
 scikit-learn
-kaggle
 notebook
 shap
 joblib
+jupyter
 TextBlob
 catboost
